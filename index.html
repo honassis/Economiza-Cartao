@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="pdf.js"></script>
+    <script src="pdf.worker.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="document.location.reload(true)">R</button>
+    <button id="upload-button">1</button>
+    <input type="file" id="file-to-upload" accept="application/pdf" />
+    <button id="upload-button2">2</button>
+    <input type="file" id="file-to-upload2" accept="application/pdf" />
+    <button id="upload-button3">3</button>
+    <input type="file" id="file-to-upload3" accept="application/pdf" />
+    <button id="upload-button4">4</button>
+    <input type="file" id="file-to-upload4" accept="application/pdf" />
+    <button onclick="$('.item1').hide();$('#upload-button').hide();$(this).hide();">E1</button>
+    <button onclick="$('.item2').hide();$('#upload-button2').hide();$(this).hide();">E2</button>
+    <button onclick="$('.item3').hide();$('#upload-button3').hide();$(this).hide();">E3</button>
+    <button onclick="$('.item4').hide();$('#upload-button4').hide();$(this).hide();">E4</button>
+
+
+    <div id="a4">
+        <div id="item" class="item1">
+            <img src="cartao.png" alt="" class="img">
+            <canvas id="pdf-canvas1" class="ct-sus" width="400"></canvas>
+            </img>
+        </div>
+        <div id="item" class="item2">
+            <img src="cartao.png" alt="" class="img">
+            <canvas id="pdf-canvas2" class="ct-sus" width="400"></canvas>
+            </img>
+        </div>
+        <div id="item" class="item3">
+            <img src="cartao.png" alt="" class="img">
+            <canvas id="pdf-canvas3" class="ct-sus" width="400"></canvas>
+            </img>
+        </div>
+        <div id="item" class="item4">
+            <img src="cartao.png" alt="" class="img">
+            <canvas id="pdf-canvas4" class="ct-sus" width="400"></canvas>
+            </img>
+        </div>
+    </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+
+}
+
+.img {
+    width: 83%;
+    margin-left: 7.5%;
+}
+
+.ct-sus {
+
+    position: absolute;
+    margin-left: -36.5%;
+    margin-top: 11%;
+    width: 30%;
+}
+
+#file-to-upload,
+#file-to-upload2,
+#file-to-upload3,
+#file-to-upload4 {
+    display: none;
+}
+
+#pdf-main-container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+#pdf-loader {
+    display: none;
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    line-height: 100px;
+    height: 100px;
+}
+
+#pdf-contents {
+    display: none;
+}
+
+#pdf-meta {
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+#pdf-buttons {
+    float: left;
+}
+
+#page-count-container {
+    float: right;
+}
+
+#pdf-current-page {
+    display: inline;
+}
+
+#pdf-total-pages {
+    display: inline;
+}
+
+#pdf-canvas {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
